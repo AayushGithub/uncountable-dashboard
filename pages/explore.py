@@ -27,7 +27,9 @@ layout = html.Div(
                     children="Explore Data as a function of time", className="header-title"
                 ),
                 html.P(
-                    children=["Choose a parameter (input or output) and see how it varies as a function of time. ",html.Strong('Multiple experiments')," may have been carried out on the same day. Use the ",html.Strong('data aggregation')," selector to pick what type of data is desired in such cases.",],
+                    children=["Choose a parameter (input or output) and see how it varies as a function of time. ",
+                    html.Strong('Multiple experiments')," may have been carried out on the same day. Use the ",
+                    html.Strong('data aggregation')," selector to pick what type of data is desired in such cases.",],
                     className="header-description",
                 ),
 
