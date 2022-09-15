@@ -62,9 +62,10 @@ body {
 }
 
 .wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 100%;
+    display: flex;
+  justify-content: center;
+    width: 90%;
+  margin: 0 auto;
     padding-right: 10px;
     padding-left: 10px;
     margin-top: 32px;
@@ -99,18 +100,21 @@ body {
 .card {
     margin-bottom: 24px;
     margin-bottom: 12px;
-    margin: auto;
-    width: 100%;
+    margin: 0 auto;
+    width: 120%;
     max-width: 100%;
     padding: 10px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    display: flex;
+  justify-content: center;
 }
 
 /* Card */
 #page-content div .card{
- transform:translatex(-308px) translatey(-4px);
  min-height:584px;
 }
+
+
 
 /* Card */
 #react-entry-point #_dash-global-error-container div div div #_dash-app-content div #page-content div .wrapper .card{
