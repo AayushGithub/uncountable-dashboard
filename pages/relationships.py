@@ -30,7 +30,7 @@ layout = html.Div(
                     children="Explore Relationships between Inputs and Outputs", className="header-title"
                 ),
                 html.P(
-                    children=["By specifiying the input and output, you can see the relationship between the two variables. A",html.Strong(' date range '),"can be specified to see the relationship between the two variables over time. ",html.Strong('Zero Values')," can be optionally excluded.",],
+                    children=["By specifying the input and output, you can see the relationship between the two variables. A",html.Strong(' date range '),"can be specified to see the relationship between the two variables over time. ",html.Strong('Zero Values')," can be optionally excluded.",],
                     className="header-description",
                 ),
 
