@@ -2,5 +2,3 @@ venv
 *.pyc
 .DS_Store
 .env
-users.py
-data.json
