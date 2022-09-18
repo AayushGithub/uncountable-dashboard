@@ -34,7 +34,7 @@ layout = html.Div(
                     children="Explore Data for a particular experiment", className="header-title"
                 ),
                 html.P(
-                    children=["Choose a parameter (input or output) and see how it varies as a function of time. ",html.Strong('Multiple experiments')," may have been carried out on the same day. Use the ",html.Strong('data aggregation')," selector to pick what type of data is desired in such cases.",],
+                    children=["Data needs to be observed for a given experiment.",html.Strong('Data is tabulated')," based on input or output criteria. Use the ",html.Strong('experiment number')," selector to pick what experiment you want to survey.",],
                     className="header-description",
                 ),
 
